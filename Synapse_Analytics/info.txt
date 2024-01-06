@@ -1,0 +1,6 @@
+selected resource name:		create view
+selected resource type:		pipeline
+workspace name:			kkd-adv-works-sa
+workspace location:		westeurope
+subscription id:		5d3957f6-5fb5-4d7c-8f45-d825ab165714
+time of download (UTC):		Sat, 06 Jan 2024 10:59:49 GMT

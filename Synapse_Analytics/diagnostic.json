@@ -1,0 +1,22 @@
+{
+    "now": "2024-01-06T10:59:49.378Z",
+    "perfNow": 856018.1999999881,
+    "diagnosticCorrelation": "9722d004-1535-4bc5-a578-ddfe4606c647",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "a365",
+        "buildVersion": "23.1221.09",
+        "environmentType": 9,
+        "resourceName": "kkd-adv-works-sa",
+        "resourceRegion": "westeurope",
+        "resourceGroup": "Portfolio-rg",
+        "subscriptionId": "5d3957f6-5fb5-4d7c-8f45-d825ab165714",
+        "sessionId": "SHgQe",
+        "operationId": "6lrXl",
+        "gitType": "live"
+    },
+    "additionalInfo": {
+        "selectedResource": "create view",
+        "selectedResourceType": "pipeline"
+    }
+}

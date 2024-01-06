@@ -1,0 +1,12 @@
+{
+	"name": "CopyEachTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "onprimsqlserver",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}

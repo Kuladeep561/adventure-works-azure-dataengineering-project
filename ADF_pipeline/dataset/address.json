@@ -1,0 +1,19 @@
+{
+	"name": "address",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adv_works_storage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"name": "sqlauth",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://tokyo-olympic-keys-vault.vault.azure.net/"
+		}
+	}
+}

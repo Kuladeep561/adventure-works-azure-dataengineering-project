@@ -1,0 +1,19 @@
+{
+	"name": "AzureDatabricks_advWorks",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-7604844659077757.17.azuredatabricks.net",
+			"accessToken": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "sqlauth",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "kkdlearning-databricks-accesstoken"
+			},
+			"existingClusterId": "1130-132726-ywpht01m"
+		}
+	}
+}

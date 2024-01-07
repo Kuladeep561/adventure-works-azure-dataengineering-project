@@ -13,6 +13,7 @@ The project utilizes sales data from Microsoft's Adventure Works sample database
 ## Data Ingestion
 
 A pivotal aspect of the on-premises to cloud architecture was the use of Azure Data Factory to ingest raw data into a Data Lake Gen 2 container. Employing a self-hosted integration runtime installed on the local machine facilitated the connection to the On-premises SQL Server. With the assistance of a well-defined pipeline, all data was efficiently loaded into the bronze (raw) container. Configuration files related to this process can be found in [ADF_pipeline](./ADF_pipeline).
+![ADF_pipeline](./ADF_pipeline/ADF_pipeline.png).
 
 ## Data Transformation
 
@@ -20,7 +21,8 @@ While the data was largely cleaned before reaching the on-premises environment, 
 
 ## Data Analytics
 
-A dedicated database in Azure Synapse Analytics was created, with data from the Gold layer loaded into it. Instead of importing actual data into the Synapse database, a cost-effective approach was taken. Stored procedures were crafted to generate views directly from the Data Lake Gen2 gold container. These stored procedures are triggered by a pipeline within Synapse, ensuring the maintenance of fresh data views. Config files can be found in [Synapse Anlytics](./Synapse_Analytics)
+A dedicated database in Azure Synapse Analytics was created, with data from the Gold layer loaded into it. Instead of importing actual data into the Synapse database, a cost-effective approach was taken. Stored procedures were crafted to generate views directly from the Data Lake Gen2 gold container. These stored procedures are triggered by a pipeline within Synapse, ensuring the maintenance of fresh data views. Config files can be found in [Synapse Anlytics](./Synapse_Analytics).
+![Synapse Anlytics](./Synapse_Analytics/SA_pipeline.png)
 
 ## Dashboards
 
